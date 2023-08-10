@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import warnings
 from pandas.api.types import is_numeric_dtype,is_string_dtype,is_object_dtype
-
+import io
 
 # Start Page Setting
 warnings.filterwarnings('ignore')
