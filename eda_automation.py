@@ -99,7 +99,7 @@ with col_one:
             df = pd.read_csv(f1,encoding="ISO-8859-1")
             file_name = f1.name
         elif f1.type:
-            df = pd.read_excel(f1,encoding="ISO-8859-1")
+            df = pd.read_excel(f1)
             file_name = f1.name
         else:
             #streamlit_js_eval(js_expressions="parent.window.location.reload()")
